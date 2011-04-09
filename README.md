@@ -22,6 +22,10 @@ autorequire.js is for the terminally lazy. it turns boilerplate code like this:
 into this:
 
     http, https, url, path, util, crypto;
+    
+if you want, you can even abuse otherwise useless javascript labels:
+
+    require: http, https, url, path, util, crypto;
 
 it does this by wrapping your module in a closure, like this:
 

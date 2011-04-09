@@ -2,7 +2,7 @@
 // using `require.auto` on this file will work as expected
 
 // declare these anywhere in the first tick
-assert, repl, url;
+require: assert, repl, url;
 
 assert.equal( assert, require( "assert" ) )
 
